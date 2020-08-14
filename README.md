@@ -1,4 +1,4 @@
-# ![Portfolio](css/image1.JPG)
+# ![Portfolio](images/image1.jpg)
 # Portfolio
 <table>
 <tr>
