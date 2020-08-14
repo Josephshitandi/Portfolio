@@ -1,20 +1,25 @@
 * {
-    /* text-align: center; */
+    /* background-color: gray; */
 }
 
 nav {
     margin: o auto;
     padding: 0.1%;
     margin-right: 0;
+    color: rgb(235, 144, 33);
+    background-color: rgb(219, 198, 152);
 }
 
 nav>ul {
-    text-align: right;
+    text-align: center;
+    background-color: rgb(219, 198, 152);
+
 }
 
 nav>ul>li {
     display: inline-block;
     padding: 0px 20px;
+    background-color: rgb(219, 198, 152);
 }
 
 nav>ul>li>a {
@@ -29,4 +34,9 @@ nav>ul>li>a:hover {
     box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
     background-color: rgba(107, 93, 84, 0.678);
     color: rgba(24, 223, 24, 0.702)
+}
+
+#home,
+#about {
+    text-align: center;
 }
