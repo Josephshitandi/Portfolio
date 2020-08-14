@@ -1,9 +1,9 @@
-# ![Portfolio](.JPG)
+# ![Portfolio](css/image1.JPG)
 # Portfolio
 <table>
 <tr>
 <td>
-  A Portfolio using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+  This is basically a portfolio website containing all about me i.e who i am, Education background, Work experience, Skills and Interest. It has different section namely name,about,skills, project and contact.
 </td>
 </tr>
 </table>
