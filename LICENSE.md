@@ -1,5 +1,5 @@
 The Star And Thank Author License (SATA)
-Copyright (c) [Joseph Shitandi Otaaba](https://github.com/Josephshitandi) <sophieolondie@gmail.com>
+Copyright (c) [Joseph Shitandi Otaaba](https://github.com/Josephshitandi) <jsphshtnd@gmail.com>
 Project Url: https://github.com/Josephshitandi/Portfolio
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
