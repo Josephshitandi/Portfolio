@@ -1,5 +1,5 @@
 * {
-    /* background-color: gray; */
+    background-color: gray;
 }
 
 nav {
@@ -7,19 +7,19 @@ nav {
     padding: 0.1%;
     margin-right: 0;
     color: rgb(235, 144, 33);
-    background-color: rgb(219, 198, 152);
+    background-color: white;
 }
 
 nav>ul {
     text-align: center;
-    background-color: rgb(219, 198, 152);
+    background-color: white;
 
 }
 
 nav>ul>li {
     display: inline-block;
     padding: 0px 20px;
-    background-color: rgb(219, 198, 152);
+    background-color: white;
 }
 
 nav>ul>li>a {
@@ -28,6 +28,7 @@ nav>ul>li>a {
     text-decoration: none;
     color: blue;
     width: 25%;
+
 }
 
 nav>ul>li>a:hover {
@@ -39,4 +40,10 @@ nav>ul>li>a:hover {
 #home,
 #about {
     text-align: center;
+}
+
+#column {}
+
+h2 {
+    color: blue;
 }
