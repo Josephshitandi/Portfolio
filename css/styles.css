@@ -7,19 +7,18 @@ nav {
     padding: 0.1%;
     margin-right: 0;
     color: rgb(235, 144, 33);
-    background-color: white;
+    background-color: rgb(167, 245, 79);
 }
 
 nav>ul {
     text-align: center;
-    background-color: white;
-
+    background-color: rgb(157, 247, 55);
 }
 
 nav>ul>li {
     display: inline-block;
     padding: 0px 20px;
-    background-color: white;
+    background-color: rgb(152, 231, 48);
 }
 
 nav>ul>li>a {
@@ -42,8 +41,37 @@ nav>ul>li>a:hover {
     text-align: center;
 }
 
-#column {}
 
 h2 {
     color: blue;
+}
+
+/* Three columns */
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    width: 33%;
+    padding: 10px;
+    height: auto;
+    ;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    background-color: rgb(158, 235, 245);
+    display: flex;
+}
+
+.copyright {
+    text-align: center;
 }
