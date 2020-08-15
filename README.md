@@ -28,9 +28,9 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Built with
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [HTML](https://www.w3schools.com/html/) - HTML tutorial.
+- [CSS](https://www.w3schools.com/css/) - css tutorial.
+- [Javascript](https://www.w3schools.com/js/) - javascrit tutorial.
 
 ## Author
 
