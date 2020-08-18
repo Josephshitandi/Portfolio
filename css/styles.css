@@ -72,8 +72,7 @@ h2 {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
-        background-color: black;
-        color: yellowgreen;
+        background-color: yellowgreen;
     }
 }
 

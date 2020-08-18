@@ -35,5 +35,7 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Author
 
 - Joseph Shitandi Otaaba
-## [License](https://github.com/Josephshitandi/Portfolio/blob/master/LICENSE.md)
-MIT © [Joseph Shitandi Otaaba](https://github.com/Josephshitandi)
+## License 
+[MIT](https://github.com/Josephshitandi/Portfolio/blob/master/LICENSE.md)
+
+ © [Joseph Shitandi Otaaba](https://github.com/Josephshitandi)
