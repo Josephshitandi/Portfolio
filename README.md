@@ -10,6 +10,7 @@
 
 ## Demo
 Here is a working live demo :  https://Josephshitandi.github.io/Portfolio/
+
 ## Mobile support
 The Portfolio is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
@@ -33,8 +34,8 @@ To fix a bug or enhance an existing module, follow these steps:
 - [Javascript](https://www.w3schools.com/js/) - javascrit tutorial.
 
 ## Author
-
 - Joseph Shitandi Otaaba
+
 ## License 
 [MIT](https://github.com/Josephshitandi/Portfolio/blob/master/LICENSE.md)
 
