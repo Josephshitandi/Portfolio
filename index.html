@@ -5,137 +5,233 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Landing Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">HOME </a></li>
-            <li><a href="#about">PROFILE </a></li>
-            <li><a href="#education">EDUCATION</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact">CONTACTS </a></li>
 
-        </ul>
-    </nav>
-    <div id="home">
-        <img src="./images/image1.jpg" alt="my-picture" height="150" width="200">
-        <h2>I'm <span> Joseph Shitandi Otaaba</span></h2>
-        <p> Software Developer and I.T Specialist</p>
-    </div>
-    <div id="about">
-        <h2>Personal Profile</h2>
-        <p>My name is <strong>Joseph Shitandi</strong> result oriented <strong>WEB Developer and I.T
-                Specialist</strong>.<br> I am currently
-            a student at <em><strong>Moringa School</strong></em> pursuing a Professional Certificate in Software
-            Development </p>
-    </div>
-    <!-- Three columns -->
-    <h2>Education and Experience</h2>
-    <div class="row">
-        <div class="column">
-            <div id="education">
-                <h1>Education</h1>
-                <ol>
-                    <li>Currently at Moringa School</li>
-                    <ul>
-                        <li>pursuing Professional certificate in Software Development</li>
-                    </ul>
-                    <li>NYS Engineering Institute</li>
-                    <ul>
-                        <li>Pursed DICT</li>
-                    </ul>
-                </ol>
-            </div>
-        </div>
-        <div class="column">
-            <div id="experience">
-                <h1>Experience</h1>
-                <ol>
-                    <li>Internship at KCA University.</li>
-                </ol>
-            </div>
-        </div>
-        <div class="column">
-            <div id="interest">
-                <h1>Interests</h1>
-                <ul>
-                    <li>I like Programming</li>
-                    <li>Team-Work</li>
-                    <li>Socializing</li>
-                    <li>Adventures</li>
+    <!--Main Navigation-->
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong>My Portfolio</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                    </li>
                 </ul>
             </div>
+        </nav>
+
+    </header>
+    <div class="container-fluid">
+        <div id="home">
+            <img src="./images/image1.jpg" alt="my-picture" height="150" width="200">
+            <h2>I'm <span> Joseph Shitandi Otaaba</span></h2>
+            <p> Software Developer and I.T Specialist</p>
         </div>
-    </div>
-
-
-    <div id="skills">
-        <h1>skills</h1>
-        <p>Hypertext Markup Language</p>
-        <P>Javascript</P>
-        <p> CSS </p>
-        <P>IT Infrastructure</P>
-    </div>
-
-    <div id="projects">
-        <h1>projects</h1>
-        <P>Below are some of projects I have developed with their active links.</P>
-
+        <div id="about">
+            <h2>Personal Profile</h2>
+            <p>My name is <strong>Joseph Shitandi</strong> result oriented <strong>WEB Developer and I.T
+                    Specialist</strong>.<br> I am currently
+                a student at <em><strong>Moringa School</strong></em> pursuing a Professional Certificate in Software
+                Development </p>
+        </div>
+        <!-- Three columns -->
+        <h2>Education and Experience</h2>
         <div class="row">
             <div class="column">
-                <img src="images/image4.png" alt="screensot-for-Standard-hotel" height="200" width="400">
-                <h3>STANDARD HOTEL</h3>
-                <p>This was a preprep project done for the fulfillment of the course. <br> It was developed to help
-                    people have easy access to standard hotel which is located in costal region.</p>
-                <h3>Tools Used</h3>
-                <P>HTML</p>
-                <p> CSS </p>
-                <p>Javascript</P>
-                <p>Press the link below to view the website</p>
-                <button><a href="https://josephshitandi.github.io/standard-hotel/">view Website</a></button>
+                <div id="education">
+                    <h1>Education</h1>
+                    <ol>
+                        <li>Currently at Moringa School</li>
+                        <ul>
+                            <li>pursuing Professional certificate in Software Development</li>
+                        </ul>
+                        <li>NYS Engineering Institute</li>
+                        <ul>
+                            <li>Pursed DICT</li>
+                        </ul>
+                    </ol>
+                </div>
             </div>
             <div class="column">
-                <img src="images/Hotel2.png" alt="screensot-for-Hotel management website height="200" width="400">
-                <h3>HOTEL MANAGEMENT WEBSITE</h3>
-                <p>This is a web application that will help you as a tourist find your way to different game parks and a
-                    comfortable hotel.</p>
-                <h3>Tools Used</h3>
-                <P>HTML</p>
-                <p> CSS </p>
-                <p>Javascript</P>
-                <p>Press the link below to view the website</p>
-                <button><a href="https://josephtembu.github.io/Hotel-management-group-/">view
-                        Website</a></button>
+                <div id="experience">
+                    <h1>Experience</h1>
+                    <ol>
+                        <li>Internship at KCA University.</li>
+                    </ol>
+                </div>
             </div>
             <div class="column">
-                <img src=" images/walkthrough.png" alt="screensot-for-a walkthrough website height="200" width="400">
-                <h3>MY FIRST WEBSITE</h3>
-                <p>This is a web application that explains a walkthrough of an introduction to my first webpage.</p>
-                <h3>Tools Used</h3>
-                <P>HTML</p>
-                <p> CSS </p>
-                <p>Javascript</P>
-                <p>Press the link below to view the website</p>
-                <button><a href="https://josephshitandi.github.io/Requirements/">view Website</a></button>
+                <div id="interest">
+                    <h1>Interests</h1>
+                    <ul>
+                        <li>I like Programming</li>
+                        <li>Team-Work</li>
+                        <li>Socializing</li>
+                        <li>Adventures</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="contact">
-        <h2>Reach me through</h2>
-        <P><a href="tel:+254702296305">+254 702 296 305</a></P>
-        <P><a href="mailto:jsphshtnd@gmail.com">jsphshtnd@gmail.com</a></P>
-    </div>
-    <div id="contact">
-        <a href="https://facebook.com/"><img src=" images/facebook.jpg" alt="Facebook" height=" 50" width="50"></a>
-        <a href="https://twitter.com/"><img src=" images/twiter.png" alt="Twiter" height=" 50" width="50"></a>
-        <a href="https://instagram.com/"><img src=" images/instagram.png" alt="instagram" height=" 50" width="50"></a>
-    </div>
-    <div class="copyright">
-        <p>Copyright © 2020 Joseph Shitandi portfolio || Terms and Conditions || All Rights Reserved.</P>
+
+        <div id="skills">
+            <h1>skills</h1>
+            <p>Hypertext Markup Language</p>
+            <P>Javascript</P>
+            <p> CSS </p>
+            <P>IT Infrastructure</P>
+        </div>
+
+        <div id="projects">
+            <h1>projects</h1>
+            <P>Below are some of projects I have developed with their active links.</P>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/pizza-web.png" alt="pizza-website" height="200" width="400">
+                    <h3>PIZZA WEB</h3>
+                    <p>Debonairs Pizza is a Kenyan based pizza restaurant founded in 2004 by John kamau. John came up
+                        with the idea and business model to found the company following a gap-year trip to Nairobi when
+                        he was a student at the University of Nairobi. Debonairs pizza is located in Nairobi near
+                        university of Nairobi.</p>
+                    <h3>Tools Used</h3>
+                    <P>HTML</p>
+                    <p> CSS </p>
+                    <p>Javascript</P>
+                    <p>Bootstrap</P>
+                    <p>Jquery</p>
+                    <p>Press the link below to view the website</p>
+                    <button><a href="https://josephshitandi.github.io/pizza-web/">view Website</a></button>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/garage-system.png" alt="screensot-for-Hotel management website height=" 200"
+                        width="400">
+                    <h3>MORDER GARAGE SYSTEM</h3>
+                    <p>A modern garage system where one can log in choose the garage branch (location), choose services,
+                        duration and the system will prompt customer when the service is over. System will also prompt
+                        customer when the service has started to be offered.</p>
+                    <h3>Tools Used</h3>
+                    <P>HTML</p>
+                    <p> CSS </p>
+                    <p>Javascript</P>
+                    <p>Bootstrap</P>
+                    <p>Jquery</p>
+                    <p>Press the link below to view the website</p>
+                    <button><a href="https://josephshitandi.github.io/Garage-system-group/">view
+                            Website</a></button>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Delani-studio.png" alt="screensot-for-a walkthrough website height=" 200"
+                        width="400">
+                    <h3>DELANI STUDIO</h3>
+                    <p>Delani studio website is a website that design practice, offers a full range of services
+                        including brand strategy, interaction and visual design and user experience testing.</h3>
+                        <P>HTML</p>
+                        <p> CSS </p>
+                        <p>Javascript</P>
+                        <p>Bootstrap</P>
+                        <p>Press the link below to view the website</p>
+                        <button><a href="https://josephshitandi.github.io/Delani-Studio/">view Website</a></button>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/image4.png" alt="screensot-for-Standard-hotel" height="200" width="400">
+                    <h3>STANDARD HOTEL</h3>
+                    <p>This was a preprep project done for the fulfillment of the course. <br> It was developed to help
+                        people have easy access to standard hotel which is located in costal region.</p>
+                    <h3>Tools Used</h3>
+                    <P>HTML</p>
+                    <p> CSS </p>
+                    <p>Javascript</P>
+                    <p>Press the link below to view the website</p>
+                    <button><a href="https://josephshitandi.github.io/standard-hotel/">view Website</a></button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/Hotel2.png" alt="screensot-for-Hotel management website height=" 200" width="400">
+                    <h3>HOTEL MANAGEMENT WEBSITE</h3>
+                    <p>This is a web application that will help you as a tourist find your way to different game parks
+                        and a
+                        comfortable hotel.</p>
+                    <h3>Tools Used</h3>
+                    <P>HTML</p>
+                    <p> CSS </p>
+                    <p>Javascript</P>
+                    <p>Press the link below to view the website</p>
+                    <button><a href="https://josephtembu.github.io/Hotel-management-group-/">view
+                            Website</a></button>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/AkanName.png" alt="screensot-for-a walkthrough website height=" 200" width="400">
+                    <h3>AKAN NAME</h3>
+                    <p>This is a web application that takes a user's birthday and calculates the day of the week they
+                        were born and then depending on their gender outputs their Akan Name.</p>
+                    <h3>Tools Used</h3>
+                    <P>HTML</p>
+                    <p> CSS </p>
+                    <p>Javascript</P>
+                    <p>Press the link below to view the website</p>
+                    <button><a href="https://josephshitandi.github.io/Requirements/">view Website</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h2>Reach me through</h2>
+            <P><a href="tel:+254702296305">+254 702 296 305</a></P>
+            <P><a href="mailto:jsphshtnd@gmail.com">jsphshtnd@gmail.com</a></P>
+        </div>
+        <div id="contact">
+            <a href="https://facebook.com/"><img src=" images/facebook.jpg" alt="Facebook" height=" 50" width="50"></a>
+            <a href="https://twitter.com/"><img src=" images/twiter.png" alt="Twiter" height=" 50" width="50"></a>
+            <a href="https://instagram.com/"><img src=" images/instagram.png" alt="instagram" height=" 50"
+                    width="50"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2020 Joseph Shitandi portfolio || Terms and Conditions || All Rights Reserved.</P>
+        </div>
     </div>
 </body>
 
